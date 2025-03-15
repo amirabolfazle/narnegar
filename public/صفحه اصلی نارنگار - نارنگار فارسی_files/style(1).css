@@ -1,0 +1,97 @@
+/*
+Theme Name:        Cartzilla Child
+Theme URI:         https://demo2.madrasthemes.com/cartzilla-demos/fashion-store/
+Author:            MadrasThemes
+Author URI:        https://themeforest.net/user/madrasthemes/
+Description:       Digital Marketplace & Electronics Store WooCommerce Theme
+Requires at least: WordPress 5.0
+Template:          cartzilla
+Version:           1.0.31
+License:           GNU General Public License v2 or later
+License URI:       LICENSE
+Text Domain:       cartzilla-child
+Tags:              two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready, rtl-language-support, footer-widgets, sticky-post, theme-options
+*/
+
+
+  .woocommerce-product-gallery__image > a > img {
+      display: block;
+      width: auto; }
+      .mfp-content {
+    text-align: right;
+}
+.dokan-popup-content .mfp-close {
+    top: 4px;
+    left: 3px;
+}
+
+.mfp-close {
+    left: 0;
+}
+
+.woofc-area a, .woofc-area input, .woofc-area p, .woofc-area {
+    font-family: 'IRSANSNEW', sans-serif
+}
+
+.woo-wallet-my-wallet-container .woo-wallet-content {
+    background: #f2f2f2;
+}
+.woo-wallet-my-wallet-container {
+    border-radius: 20px;
+}
+
+.dokan-store-support-btn,.btn-theme{
+    color: #ffffff;
+    border: 1px solid transparent;
+    padding: 0.625rem 1.375rem;
+    border-radius: 0.3125rem;
+    background-color: #3e32ea !important;
+    border-color: #3d62c9 !important;
+}
+
+.woocommerce-terms-and-conditions-wrapper{display: none;}
+
+ul.dokan-account-migration-lists li .left-content {
+    text-align: right;
+}
+
+div.product-addon-totals ul li,div.product-addon-totals ul li.wc-pao-row-quantity-based {
+    display: none;
+}
+
+div.product-addon-totals .wc-pao-subtotal-line {
+    display: block;
+}
+
+div.product-addon-totals {
+  margin: 0;
+    padding: 0;
+}
+
+.single-product div.product div.product-addon-totals .wc-pao-subtotal-line p.price {
+    font-size: large;
+}
+
+@media (max-width: 991.98px) {
+  .cz-handheld-toolbar {
+    display: none; } }
+
+.woocommerce-form-coupon-toggle{
+    display: none;
+}
+.pf_rngstyle_thin .irs-with-grid {
+    height: 70px;
+    direction: ltr;
+}
+.product-card .card-body-hidden {
+    opacity: inherit;
+	visibility: visible;
+}
+ul.products li.product, ul.loop-product-categories li.product {
+    margin-bottom: 6rem;
+ 
+}
+
+.mfp-close {
+    left: 0;
+}
